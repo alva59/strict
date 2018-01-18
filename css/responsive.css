@@ -1,0 +1,41 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .logo {
+    padding: 0px 10px;
+    text-align: center;}
+    .navbar-right{float: none;margin-right: 50px;}
+    .menu-area ul.nav{text-align: center;}
+    .strict{font-size: 65px;}
+    .border-strict{width: 50%}
+    .banner-text p{font-size: 16px}
+    .banner-text a{font-size: 18px;}
+    .banner-text {
+    transform: translateY(164%);}
+    .feature-widget{margin-bottom: 50px;}
+    
+    
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    .strict{font-size: 65px;}
+    .border-strict{width: 50%}
+    .banner-text p{font-size: 14px}
+    .banner-text a{font-size: 18px;}
+    .banner-text {transform: translateY(164%);}
+    .is-sticky.top-area{background: transparent;}
+    .about-text h2, .feature h2, .portfolio-text h2, .footer-top-text h2 {font-size: 22px;font-weight: 700;}
+    .about-text p, .feature p, .portfolio-text p, .footer-top-text p {font-size: 12px;!important}
+    .feature-widget{margin-bottom: 50px;}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+}
